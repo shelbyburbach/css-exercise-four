@@ -1,4 +1,59 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #dadada;
-  font-size: 10px;
+  background-color: #DADADA;
+  font-family: 'Georgia', sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  padding-bottom: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1199px) {  /*desktops*/
+  body {
+  background-color: #DADADA;
+}
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 2% auto 10%;
+  width: 75%;
+}
+
+div {
+  box-sizing: border-box;
+  column-count: 4;
+  column-span: all;
+  padding: 8px;
+}
+
+h2 {
+font-size: .75em;
+}
+
+img {
+  display: inline-block;
+  text-align: left;
+  width: 25%;
+}
+
+@@media screen and (min-width: 991px) { /*laptops*/
+
+}
+
+@media screen and (min-width: 575px) { /*tablets*/
+
+}
+
+@media screen and (min-width: 320px) { /*smartphones*/
+
 }
