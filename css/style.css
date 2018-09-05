@@ -20,36 +20,17 @@ h1 {
 h2 {
   font-family: 'Georgia', sans-serif;
   font-weight: medium;
+  position: absolute;
+  top: 32px;
+  left: 24px;
 }
 
-.preview-baku {
+.preview {
+  width: 250px;
+  height: 250px;
   position: relative;
-    text-align: center;
-    color: #000;
-}
-
-.preview-london {
-  position: relative;
-    text-align: center;
-    color: #000;
-}
-
-.preview-madrid {
-  position: relative;
-    text-align: center;
-    color: #000;
-}
-
-.preview-rome {
-  position: relative;
-    text-align: center;
-    color: #000;
-}
-
-.top-left{
-    position: absolute;
-    top: 32px;
-    left: 24px;
+  text-align: center;
+  color: #000;
 }
 
 @media screen and (max-width: 599px) {  /*smartphones*/
@@ -59,16 +40,17 @@ h2 {
 }
 
 h1 {
-  font-size: .875em; /* 14/16 */
+  font-size: 1.5em; /* 24/16 */
 }
 
 h2 {
-  font-size: 1.33em;
+  font-size: 1.75em; /* 28/16 */
 }
 
-.column {
+.preview {
   width: 100%;
-  padding: 2% 0;
+  height: 100%;
+  padding: 3% 0;
 }
 }
 
@@ -82,16 +64,22 @@ h2 {
   margin: 0 5%;
 }
 
+img {
+  width: 300px;
+  height: 300px;
+}
+
 h1 {
-  font-size: .825em;
+  font-size: 1.125em;
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
-.column {
+.preview {
   float: left;
+  height: auto;
   width: 50%;
   padding: 1%;
 }
@@ -107,19 +95,12 @@ h2 {
   margin: 0 5%;
 }
 
-.images {
-  display: flex;
+img {
+  height: 250px;
+  width: 250px
 }
 
-h1 {
-  font-size: 1em;
-}
-
-h2 {
-  font-size: 1.5em;
-}
-
-.column {
+.preview {
   width: 25%;
   padding: 1%;
 }
